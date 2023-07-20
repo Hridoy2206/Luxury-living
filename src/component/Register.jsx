@@ -3,7 +3,7 @@ import google from "../assets/Logo/google.png"
 import facebook from "../assets/Logo/facebook.png"
 const Register = () => {
     return (
-        <div className="h-screen">
+        <div className="h-screen mx-4">
             <div className="mt-28  border shadow-md p-8 border-gray-300 lg:w-1/3 mx-auto">
                 <div className="flex flex-col ">
                     <h2 className="text-2xl font-bold mb-6">Create an Account</h2>
