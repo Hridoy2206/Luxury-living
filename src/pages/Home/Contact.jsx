@@ -2,7 +2,7 @@ import CustomButton from "../../shared/CustomButton";
 
 const Contact = () => {
     return (
-        <div className=" lg:my-24 my-16 mx-4 mx-auto">
+        <div className=" lg:my-24 my-16 lg:mx-0 mx-8 mx-auto">
             <span className="block text-center text-xl font-semibold">Contect</span>
             <h1 className="text-center lg:text-4xl text-3xl mb-12 font-extrabold text-[#1F1632]">
                 Let Us handle your <br /> project professionally

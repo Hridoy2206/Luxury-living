@@ -18,11 +18,11 @@ const Navbar = () => {
                 <li className="my-4"><Link to="/project">Projects</Link> </li>
                 <li className="my-4"><Link to="/contact">Contact</Link> </li>
                 <li className="my-4"><Link to="/login">Admin</Link> </li>
-                <div className="lg:ml-32">
+                <Link to="/login" className="lg:ml-32">
                     <CustomButton>
                         Login
                     </CustomButton>
-                </div>
+                </Link>
             </ul>
         </div>
     );
